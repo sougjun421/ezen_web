@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+#wrap{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: silver;
+    color: white;
+}
+header{
+    width: 100%;
+    /* 플렉스 */
+    display: flex;
+    flex-flow: row nowrap;
+    line-height: 142px;
+}
+header>h1{
+    width: 20%;
+    height: 142px;
+    background-color: red;
+}
+header>nav{
+    width: 80%;
+    height: 142px;
+    background-color: #ff6b57;
+}
+.slide{
+    line-height: 440px;
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+.silder_sec{
+    width: 50%;
+    height: 440px;
+    background-color: #3c90be;
+}
+
+.gallery_sec{
+    width: 25%;
+    height: 440px;
+    background-color: yellow;
+
+}
+.rankup_sec{
+    width: 25%;
+    height: 440px;
+    background-color: #00d2a5;
+}
+.contents{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+   
+}
+.lastest_sec{
+    width: 30%;
+    height: 270px;
+    background-color: #9cabe4;
+}
+.popular_sec{
+    width: 30%;
+    height: 270px;
+    background-color: orange;
+}
+.banner_sec{
+    width: 20%;
+    height: 270px;
+    display: flex;
+    flex-flow: column wrap;       
+}
+.banner_sec>h2:nth-child(1){
+    background-color: blue;
+    height: 50%
+}
+.banner_sec>h2:nth-child(2){
+    background-color: black;
+    height: 50%
+}
+.social_sec{
+    width: 20%;
+    height: 270px;
+    background-color: purple;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    line-height: 70px;
+
+    background: url(../images/hobby_05.png);
+}
